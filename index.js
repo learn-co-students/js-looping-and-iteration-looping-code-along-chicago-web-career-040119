@@ -10,13 +10,13 @@ function writeCards(names_arr, event) {
 
 
 function countdown(num) {
-  let i = num;
-  while(i >= 0 ) {
-    console.log(i--);
+  let countdown = num;
+  while(countdown >= 0 ) {
+    console.log(countdown--);
   }
 }
 
-// or it could be writed like this:
+// or it could be writen like this:
 // function countdown(num) {
 //   let i= num;
 //   while ( i >= 0 ) {
